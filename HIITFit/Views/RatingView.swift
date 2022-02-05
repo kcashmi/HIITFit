@@ -39,10 +39,9 @@ struct RatingView: View {
                     Image(systemName: "waveform.path.ecg")
                         .foregroundColor(.gray)
                         .font(.largeTitle)
-                        .containerShape(Circle())
                         .background(Color(red: 1.0, green: 0.349, blue: 0.349))
+                        .clipShape(Circle())
                 }
-
             }
         }
     }
